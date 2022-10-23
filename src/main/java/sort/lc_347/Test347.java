@@ -14,7 +14,7 @@ public class Test347 {
     @Test
     void checkResult(){
         int k = 2;
-        int[] nums = new int[]{1,1,1,2,2,3};
+        int[] nums = new int[]{1,1,1,2,2,2,3,3,3,3,4};
         int[] res = lc347.topKFrequent(nums,k);
         System.out.println(res[0]);
         System.out.println(res[1]);
