@@ -1,5 +1,6 @@
 package quicksort;
 
+import org.apache.logging.log4j.core.util.Assert;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -7,7 +8,7 @@ public class Lc215Test {
     private static Lc215 lc215;
 
     @BeforeAll
-    static void initD0127p3(){
+    static void initLc215(){
         lc215 = new Lc215();
     }
 
