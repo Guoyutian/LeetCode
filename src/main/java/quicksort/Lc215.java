@@ -1,6 +1,8 @@
+package quicksort;
+
 import java.util.Random;
 
-class Leetcode215 {
+class Lc215 {
 
     Random rand=new Random();
     public int findKthLargest(int[] nums, int k) {

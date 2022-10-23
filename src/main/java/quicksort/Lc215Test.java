@@ -1,15 +1,14 @@
+package quicksort;
 
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-public class L215Test {
-    private static  Leetcode215 lc215;
+public class Lc215Test {
+    private static Lc215 lc215;
 
     @BeforeAll
     static void initD0127p3(){
-        lc215 = new Leetcode215();
+        lc215 = new Lc215();
     }
 
     @Test
