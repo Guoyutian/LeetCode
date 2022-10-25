@@ -1,4 +1,4 @@
-package sort.lc_347;
+package sort.lc347;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

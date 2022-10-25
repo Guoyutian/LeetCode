@@ -1,4 +1,4 @@
-package sort.lc_347;
+package sort.lc347;
 
 import java.util.*;
 

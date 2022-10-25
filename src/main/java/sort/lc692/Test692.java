@@ -1,4 +1,4 @@
-package sort.lc_692;
+package sort.lc692;
 
 import java.util.*;
 

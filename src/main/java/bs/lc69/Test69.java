@@ -1,6 +1,5 @@
 package bs.lc69;
 
-import dp.lc198.Lc198;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package dp.lc_70;
+package dp.lc70;
 
 public class Lc70 {
     public int climbStairs(int n) {

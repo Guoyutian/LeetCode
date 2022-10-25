@@ -1,4 +1,4 @@
-package dp.lc_70;
+package dp.lc70;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

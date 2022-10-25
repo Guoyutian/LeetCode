@@ -1,4 +1,4 @@
-package sort.lc_215;
+package sort.lc215;
 
 import java.util.Random;
 
