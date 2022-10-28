@@ -1,6 +1,6 @@
 package binary_tree.lc108;
 
-import binary_tree.TreeNode;
+import binary_tree.treenode.TreeNode;
 
 public class Lc108 {
     public TreeNode sortedArrayToBST(int[] num) {

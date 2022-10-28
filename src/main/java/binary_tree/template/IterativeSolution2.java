@@ -1,6 +1,6 @@
 package binary_tree.template;
 
-import binary_tree.TreeNode;
+import binary_tree.treenode.TreeNode;
 
 import java.util.*;
 

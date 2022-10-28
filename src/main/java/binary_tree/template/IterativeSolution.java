@@ -5,7 +5,7 @@ package binary_tree.template;
 
 
 import java.util.*;
-import binary_tree.TreeNode;
+import binary_tree.treenode.TreeNode;
 
 public class IterativeSolution {
 
