@@ -1,4 +1,4 @@
-package bs.lc540;
+package binary_search.lc540;
 
 public class Lc540 {
     public int singleNonDuplicate(int[] nums) {

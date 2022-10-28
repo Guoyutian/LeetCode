@@ -1,4 +1,4 @@
-package bs.lc744;
+package binary_search.lc744;
 
 
 public class Lc744 {

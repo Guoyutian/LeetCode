@@ -1,11 +1,11 @@
-package sw.template;
+package sliding_window.template;
 
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class Template {
+public class SwSolution {
     public List<Integer> slidingWindowTemplateByHarryChaoyangHe(String s, String t) {
         //init a collection or int value to save the result according the question.
         List<Integer> result = new LinkedList<>();

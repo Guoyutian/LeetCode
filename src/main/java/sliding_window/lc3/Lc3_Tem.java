@@ -1,4 +1,4 @@
-package sw.lc3;
+package sliding_window.lc3;
 
 import java.util.HashMap;
 import java.util.Map;

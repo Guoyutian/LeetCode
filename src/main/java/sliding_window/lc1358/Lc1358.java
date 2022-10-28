@@ -1,4 +1,4 @@
-package sw.lc1358;
+package sliding_window.lc1358;
 
 public class Lc1358 {
     public int numberOfSubstrings(String s) {

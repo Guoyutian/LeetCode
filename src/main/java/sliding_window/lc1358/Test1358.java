@@ -1,10 +1,7 @@
-package sw.lc1358;
+package sliding_window.lc1358;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import sw.lc438.Lc438;
-
-import java.util.List;
 
 public class Test1358 {
     private static Lc1358 lc1358;

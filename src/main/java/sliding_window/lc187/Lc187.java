@@ -1,4 +1,4 @@
-package sw.lc187;
+package sliding_window.lc187;
 
 import java.util.ArrayList;
 import java.util.HashMap;

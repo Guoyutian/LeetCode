@@ -1,22 +1,22 @@
-package sw.lc438;
+package sliding_window.lc187;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-public class Test438 {
-    private static Lc438 lc438;
+public class Test187 {
+    private static Lc187 lc187;
 
     @BeforeAll
     static void initLc438(){
-        lc438 = new Lc438();
+        lc187 = new Lc187();
     }
 
     @Test
     void checkResult(){
-        String s = "cbaebabacd", p = "abc";
-        List<Integer> res = lc438.findAnagrams(s,p);
+        String s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
+        List<String> res = lc187.findRepeatedDnaSequences(s);
         System.out.println(res.toString());
     }
 }

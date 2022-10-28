@@ -1,4 +1,4 @@
-package bs.lc69;
+package binary_search.lc69;
 
 public class Lc69 {
     public long mySqrt(int x){

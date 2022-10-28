@@ -1,4 +1,4 @@
-package sw.lc438;
+package sliding_window.lc438;
 
 import java.util.HashMap;
 import java.util.LinkedList;

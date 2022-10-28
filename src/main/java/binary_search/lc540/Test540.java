@@ -1,5 +1,4 @@
-package bs.lc540;
-import bs.lc744.Lc744;
+package binary_search.lc540;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

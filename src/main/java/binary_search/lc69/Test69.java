@@ -1,4 +1,4 @@
-package bs.lc69;
+package binary_search.lc69;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
