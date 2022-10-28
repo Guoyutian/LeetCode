@@ -1,5 +1,7 @@
 package binary_tree.template;
 
+import binary_tree.TreeNode;
+
 import java.util.*;
 
 public class IterativeSolution2 {
