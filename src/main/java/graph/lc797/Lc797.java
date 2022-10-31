@@ -16,7 +16,7 @@ public class Lc797 {
     }
 
     public void dfs(int[][] graph, List<List<Integer>> ans, List<Integer> temp, int start){
-        if(start == graph.length-1){
+        if(start == graph.length - 1){
             ans.add(new ArrayList<>(temp));
             return;
         }
