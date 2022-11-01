@@ -6,7 +6,7 @@ import java.util.List;
 public class Lc77 {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> result = new ArrayList<>();
-        comb(n,k,1,new ArrayList<Integer>(), result);
+        comb(n, k,1, new ArrayList<Integer>(), result);
         return result;
     }
 
@@ -17,7 +17,7 @@ public class Lc77 {
         }
         for(int i = index; i <= n; ++i){
             curr.add(i);
-            comb(n, k,i+1, curr, result);
+            comb(n, k,i + 1, curr, result);
             curr.remove(curr.size() - 1);
         }
     }
