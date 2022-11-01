@@ -9,7 +9,6 @@ public class Lc39 {
             Arrays.sort(candidates);
             List<List<Integer>> result = new ArrayList<List<Integer>>();
             getResult(result, new ArrayList<Integer>(), candidates, target, 0);
-
             return result;
         }
 
