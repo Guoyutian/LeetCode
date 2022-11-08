@@ -23,7 +23,6 @@ public class Lc695 {
         return res;
     }
 
-
     private int bfs(int[][] grid, boolean[][] visited, int i, int j) {
         Queue<int[]> q = new LinkedList<>();
         q.add(new int[]{i, j});
