@@ -1,0 +1,29 @@
+package linked_list.lc86;
+
+import linked_list.listnode.ListNode;
+
+public class Lc86 {
+    public ListNode partition(ListNode head, int x) {
+        ListNode left = new ListNode(0);
+        ListNode right = new ListNode(0);
+
+        ListNode leftTail = left;
+        ListNode rightTail = right;
+
+        while (head != null) {
+            if (head.val < x) {
+                leftTail.next = head;
+                leftTail = leftTail.next;
+            } else {
+                rightTail.next = head;
+                rightTail = rightTail.next;
+            }
+            head = head.next;
+        }
+
+        leftTail.next = right.next;
+        rightTail.next = null;
+
+        return left.next;
+    }
+}
