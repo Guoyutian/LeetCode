@@ -10,7 +10,7 @@ public class Lc698 {
         }
 
         //sum%k must equal to 0 if not just return false
-        //if we have to to divide the array greater than array size retun false(we can't)
+        //if we have to to divide the array greater than array size return false(we can't)
         if (sum % k != 0 || nums.length < k) return false;
 
         //sort so we can take last element and start filling our bucket
