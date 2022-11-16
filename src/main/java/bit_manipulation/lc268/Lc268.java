@@ -1,4 +1,4 @@
-package math.lc268;
+package bit_manipulation.lc268;
 
 public class Lc268 {
     public int missingNumber(int[] nums) {

@@ -1,4 +1,4 @@
-package math.lc191;
+package bit_manipulation.lc191;
 
 public class Lc191 {
     public static int hammingWeight(int n) {

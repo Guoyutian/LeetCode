@@ -1,4 +1,4 @@
-package math.lc136;
+package bit_manipulation.lc136;
 
 public class Lc136 {
     public int singleNumber(int[] nums) {
