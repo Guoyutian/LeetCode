@@ -1,4 +1,4 @@
-package math.lc231;
+package bit_manipulation.lc231;
 
 public class Lc231 {
     public boolean isPowerOfTwo(int n) {
