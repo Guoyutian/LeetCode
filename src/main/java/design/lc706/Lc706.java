@@ -13,8 +13,8 @@ public class Lc706 {
     }
 
     //No specific reason. For the size, I wanted something that was larger than the number of possible operations (10^4),
-    // but as small as possible without risking too many collisions, and preferably prime.
-    // The other is just a random large multiplier, also preferably a prime.
+    //but as small as possible without risking too many collisions, and preferably prime.
+    //The other is just a random large multiplier, also preferably a prime.
     static final int size = 19997;
     static final int mult = 12582917;
     ListNode[] data;
