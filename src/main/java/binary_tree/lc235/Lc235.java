@@ -1,0 +1,19 @@
+package binary_tree.lc235;
+
+import binary_tree.treenode.TreeNode;
+
+public class Lc235 {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        int small = Math.min(p.val, q.val);
+        int large = Math.max(p.val, q.val);
+        while (root != null) {
+            if (root.val > large) // p, q belong to the left subtree
+                root = root.left;
+            else if (root.val < small) // p, q belong to the right subtree
+                root = root.right;
+            else // Now, small <= root.val <= large -> This root is the LCA between p and q
+                return root;
+        }
+        return null;
+    }
+}
