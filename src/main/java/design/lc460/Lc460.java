@@ -9,6 +9,18 @@ public class Lc460 {
     private HashMap<Integer, Integer> valueHash = null;
     private HashMap<Integer, Node> nodeHash = null;
 
+    class Node {
+        public int count = 0;
+        public LinkedHashSet<Integer> keys = null;
+        public Node prev = null, next = null;
+
+        public Node(int count) {
+            this.count = count;
+            keys = new LinkedHashSet<Integer>();
+            prev = next = null;
+        }
+    }
+
     public Lc460(int capacity) {
         this.cap = capacity;
         valueHash = new HashMap<Integer, Integer>();
@@ -24,7 +36,7 @@ public class Lc460 {
     }
 
     public void set(int key, int value) {
-        if ( cap == 0 ) return;
+        if (cap == 0) return;
         if (valueHash.containsKey(key)) {
             valueHash.put(key, value);
         } else {
@@ -38,6 +50,7 @@ public class Lc460 {
         }
         increaseCount(key);
     }
+
 
     private void addToHead(int key) {
         if (head == null) {
@@ -60,13 +73,13 @@ public class Lc460 {
         node.keys.remove(key);
 
         if (node.next == null) {
-            node.next = new Node(node.count+1);
+            node.next = new Node(node.count + 1);
             node.next.prev = node;
             node.next.keys.add(key);
-        } else if (node.next.count == node.count+1) {
+        } else if (node.next.count == node.count + 1) {
             node.next.keys.add(key);
         } else {
-            Node tmp = new Node(node.count+1);
+            Node tmp = new Node(node.count + 1);
             tmp.keys.add(key);
             tmp.prev = node;
             tmp.next = node.next;
@@ -81,7 +94,7 @@ public class Lc460 {
     private void removeOld() {
         if (head == null) return;
         int old = 0;
-        for (int n: head.keys) {
+        for (int n : head.keys) {
             old = n;
             break;
         }
@@ -102,16 +115,6 @@ public class Lc460 {
         }
     }
 
-    class Node {
-        public int count = 0;
-        public LinkedHashSet<Integer> keys = null;
-        public Node prev = null, next = null;
 
-        public Node(int count) {
-            this.count = count;
-            keys = new LinkedHashSet<Integer>();
-            prev = next = null;
-        }
-    }
 }
 

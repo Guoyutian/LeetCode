@@ -14,7 +14,7 @@ public class Test414 {
 
     @Test
     void checkResult() {
-        int[] s = {2, 2, 3, 1};
+        int[] s = {3, 2, 1};
         int res = lc414.thirdMax(s);
         System.out.println(res);
     }
